@@ -14,3 +14,8 @@ node-milestones, db-driven-applications, exercises, 03-express-hello-world.md
 and the command below should start a server on the port 8080.
 
 #node express-hello-world.js
+
+
+//
+js date object:
+new Date().toISOString()
