@@ -1,0 +1,27 @@
+EXPRESS JS
+
+-express is a node.js framework
+--a way of structuring code that gives you extra capabilities
+--gives node.js a more realizistic website structure that isn't present by itself.
+--uses templating engine/language
+  -comes with two different templating engines, by default uses Jade (lots of white space)
+  -other engine is EJS
+--provides a routing mechanism
+--for spa's
+--access to model view controller pattern (MVC)
+    -MODEL -- the Data
+    -VIEW -- the Template
+    -CONTROLLER -- the JavaScript
+
+--considered an unopinionated framework which means it's more like a library or toolset than a structured platform (On the front-end, Angular is an example of an opinionated framework).
+_________________________________-
+A simple express app can be built in just a few lines of code:
+
+#const express = require('express')
+#const app = express()
+
+#app.get('/', (req, res) => {
+#    res.send('Hello World!')
+#})
+
+#app.listen(3000)

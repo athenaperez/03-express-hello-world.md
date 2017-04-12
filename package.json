@@ -1,0 +1,22 @@
+{
+  "name": "03-express-hello-world.md",
+  "version": "1.0.0",
+  "description": "node-milestones, db-driven-applications, exercises, 03-express-hello-world.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athenaperez/03-express-hello-world.md.git"
+  },
+  "author": "amp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athenaperez/03-express-hello-world.md/issues"
+  },
+  "homepage": "https://github.com/athenaperez/03-express-hello-world.md#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
